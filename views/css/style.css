@@ -11,7 +11,8 @@
   position: fixed;
   width: 256px;
   z-index: -1;
-}.randomPizzaContainer {float: left;display: flex;}
+  will-change: transform;
+}.randomPizzaContainer {float: left;display: flex; }
 .randomPizzaContainer:after {
   content: "";
   display: table;
